@@ -1,0 +1,126 @@
+
+
+h1{
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 50px;
+	text-align:center;
+}
+
+.fire{
+	background-color: red;
+  padding: 50px;
+  text-align: center;
+  margin: 100px;
+  border: 15px;
+  border-radius: 50px;
+/* the rounded edges is the new thing from outside of class - i think its pretty dope */
+}
+
+.water{
+	background-color: blue;
+	border: 25px yellow;
+  padding: 50px;
+text-align: center;
+margin: 100px;
+border-radius: 50px;
+}
+
+.air{
+	background-color: yellow;
+	  padding: 50px;
+text-align: center;
+margin: 100px;
+border-radius: 50px;
+}
+
+.earth{
+background-color: black;
+color: blue;
+  padding: 50px;
+text-align: center;
+margin: 100px;
+border-radius: 20px;
+}
+
+.underlinejunk{
+	text-decoration: underline;
+}
+/* ^ the class above is used more than once */
+
+body{
+	background-color: lightblue;
+}
+
+
+
+h2{
+	font-size: 25px;
+}
+
+p{
+	font-family: 'Liu Jian Mao Cao', cursive;
+	font-size: 25px;
+}
+/* adds color to links */
+
+a {
+  color: hotpink;
+}
+
+/* removes underline */
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+/* adds hover color */
+
+a:hover {
+  background-color: lightgreen;
+}
+
+/* adds bullet points */
+
+
+ul {
+	list-style-type: disc;
+	list-style-position: inside;
+}
+/* fuckery */
+
+
+table, th, td {
+  border: 1px solid black;
+}
+
+table {
+  width: 100%;
+}
+
+th {
+  height: 30px;
+  font-size: 20px;
+}
+
+#centerimg{
+	display:block;
+	margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+#addressID{
+	color: deeppink;
+}
