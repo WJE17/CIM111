@@ -6,8 +6,10 @@ h1{
 	text-align:center;
 }
 
+
+/* Prev. Exp. */
 .fire{
-	background-color: red;
+	background-color: firebrick;
   padding: 50px;
   text-align: center;
   margin: 100px;
@@ -16,8 +18,31 @@ h1{
 /* the rounded edges is the new thing from outside of class - i think its pretty dope */
 }
 
+
+/* 1st, Name box */
+.earth{
+background-color: black;
+color: goldenrod;
+  padding: 50px;
+text-align: center;
+margin: 100px;
+border-radius: 20px;
+}
+
+/* 2nd is immage, named later */
+
+/* 3rd, bio, yellow */
+.air{
+  background-color: gold;
+    padding: 50px;
+text-align: center;
+margin: 100px;
+border-radius: 50px;
+}
+
+/* last, Intrest n Hobbies */
 .water{
-	background-color: blue;
+	background-color: darkblue;
 	border: 25px yellow;
   padding: 50px;
 text-align: center;
@@ -25,32 +50,22 @@ margin: 100px;
 border-radius: 50px;
 }
 
-.air{
-	background-color: yellow;
-	  padding: 50px;
-text-align: center;
-margin: 100px;
-border-radius: 50px;
-}
 
-.earth{
-background-color: black;
-color: blue;
-  padding: 50px;
-text-align: center;
-margin: 100px;
-border-radius: 20px;
-}
 
+
+
+/* simple underlining class */
 .underlinejunk{
 	text-decoration: underline;
 }
 /* ^ the class above is used more than once */
 
-body{
-	background-color: lightblue;
-}
 
+
+/* back ground color */
+body{
+	background-color: grey;
+}
 
 
 h2{
@@ -58,17 +73,17 @@ h2{
 }
 
 p{
-	font-family: 'Liu Jian Mao Cao', cursive;
-	font-size: 25px;
+	font-family: 'Forum', cursive;
+  font-size: 25px;
 }
-/* adds color to links */
 
+/* adds color to links */
 a {
   color: hotpink;
 }
 
-/* removes underline */
 
+/* removes underline */
 a:link {
   text-decoration: none;
 }
@@ -85,22 +100,22 @@ a:active {
   text-decoration: underline;
 }
 
-/* adds hover color */
 
+/* adds hover color */
 a:hover {
   background-color: lightgreen;
 }
 
+
+
 /* adds bullet points */
-
-
 ul {
 	list-style-type: disc;
 	list-style-position: inside;
 }
-/* fuckery */
 
 
+/* fuckery (table trouble) */
 table, th, td {
   border: 1px solid black;
 }
@@ -114,11 +129,13 @@ th {
   font-size: 20px;
 }
 
+
+/* */
 #centerimg{
 	display:block;
 	margin-left: auto;
   margin-right: auto;
-  width: 30%;
+  width: 40%;
 }
 
 #addressID{
